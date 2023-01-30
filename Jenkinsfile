@@ -15,6 +15,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
+                hello 30 Jan 2023
             }
         }
     }
